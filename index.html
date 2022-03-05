@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <title>Meteo G4.0</title>
+</head>
+<body>
+
+
+    <div class="search">
+      <!--input type="text" name="wileyaa" class="search-bar" placeholder="Search"-->
+      <select class="js-example-basic-single" name="ville">
+      	<option></option>
+        <option value="2463810">Matmata</option>
+        <option value="2463951">Zaouiat Djedidi</option>
+        <option value="2464020">Souassi</option>
+        <option value="2464037">Zahānah</option>
+        <option value="2464038">Gouvernorat de Zaghouan</option>
+        <option value="2464041">Zaghouan</option>
+        <option value="2464157">Wadi Maliz</option>
+        <option value="2464168">Oued Lill</option>
+        <option value="2464427">Touza</option>
+        <option value="2464461">Republic of Tunisia</option>
+        <option value="2464464">Gouvernorat de Tunis</option>
+        <option value="2464470">Tunis</option>
+        <option value="2464645">Gouvernorat de Tozeur</option>
+        <option value="2464648">Tozeur</option>
+        <option value="2464698">Tataouine</option>
+        <option value="2464701">Tataouine</option>
+        <option value="2464704">Testour</option>
+        <option value="2464770">Tamaghzah</option>
+        <option value="2464795">Thala</option>
+        <option value="2464804">Takelsa</option>
+        <option value="2464809">Tajerouine</option>
+        <option value="2464855">Tabursuq</option>
+        <option value="2464871">Tabarka</option>
+        <option value="2464912">Gouvernorat de Sousse</option>
+        <option value="2464915">Sousse</option>
+        <option value="2464960">Sukrah</option>
+        <option value="2465027">Gouvernorat de Siliana</option>
+        <option value="2465030">Siliana</option>
+        <option value="2465108">Sidi Amor Bou Hajela</option>
+        <option value="2465138">Sidi Alouane</option>
+        <option value="2465837">Gouvernorat de Sidi Bouzid</option>
+        <option value="2465840">Sidi Bouzid</option>
+        <option value="2466034">Sidi Bou Ali</option>
+        <option value="2466075">Sidi Ben Nour</option>
+        <option value="2466499">Sidi el Hani</option>
+        <option value="2466688">Sidi Bou Saïd</option>
+        <option value="2466698">Sidi Abid</option>
+        <option value="2466897">Chorbane</option>
+        <option value="2467041">Chenini</option>
+        <option value="2467077">Chebika</option>
+        <option value="2467239">Sakiet Sidi Youssef</option>
+        <option value="2467246">Skanes</option>
+        <option value="2467368">Sejenane</option>
+        <option value="2467450">Gouvernorat de Sfax</option>
+        <option value="2467454">Sfax</option>
+        <option value="2467506">Sbiba</option>
+        <option value="2467521">La Sebala du Mornag</option>
+        <option value="2467783">Remada</option>
+        <option value="2467813">Rafrāf</option>
+        <option value="2467815">Radès</option>
+        <option value="2467856">Ksour Essaf</option>
+        <option value="2467890">Ksibet el Mediouni</option>
+        <option value="2467914">Korbous</option>
+        <option value="2467920">Korba</option>
+        <option value="2467959">Kélibia</option>
+        <option value="2467980">Goubellat</option>
+        <option value="2468014">Gouvernorat de Kébili</option>
+        <option value="2468018">Kebili</option>
+        <option value="2468106">Ksar Hellal</option>
+        <option value="2468245">Carthage</option>
+        <option value="2468285">El Fahs</option>
+        <option value="2468329">Galaat el Andeless</option>
+        <option value="2468349">Gafour</option>
+        <option value="2468351">Gafsa Governorate</option>
+        <option value="2468353">Gafsa</option>
+        <option value="2468365">Gouvernorat de Gabès</option>
+        <option value="2468369">Gabès</option>
+        <option value="2468459">Nibbar</option>
+        <option value="2468561">Nefta</option>
+        <option value="2468576">Gouvernorat de Nabeul</option>
+        <option value="2468579">Nabeul</option>
+        <option value="2468625">Mutuelleville</option>
+        <option value="2468925">Midoun</option>
+        <option value="2469088">Mateur</option>
+        <option value="2469140">Msaken</option>
+        <option value="2469174">Mareth</option>
+        <option value="2469252">Menzel Salem</option>
+        <option value="2469255">Menzel Kamel</option>
+        <option value="2469256">Menzel Jemil</option>
+        <option value="2469258">Menzel Heurr</option>
+        <option value="2469262">Mennzel Bou Zelfa</option>
+        <option value="2469264">Menzel Bourguiba</option>
+        <option value="2469268">Menzel Abderhaman</option>
+        <option value="2469274">Manouba</option>
+        <option value="2469321">Melloulèche</option>
+        <option value="2469329">Mellita</option>
+        <option value="2469341">Maktar</option>
+        <option value="2469386">Medjez el Bab</option>
+        <option value="2469470">Gouvernorat de Médenine</option>
+        <option value="2469473">Medenine</option>
+        <option value="2469571">Lemta</option>
+        <option value="2469744">Kesra</option>
+        <option value="2470085">Gouvernorat de Jendouba</option>
+        <option value="2470088">Jendouba</option>
+        <option value="2470120">Jilma</option>
+        <option value="2470173">Zarzis</option>
+        <option value="2470189">Jemna</option>
+        <option value="2470191">Djemmal</option>
+        <option value="2470260">Djebeniana</option>
+        <option value="2470384">Houmt El Souk</option>
+        <option value="2470483">Harqalah</option>
+        <option value="2470579">Hammam Sousse</option>
+        <option value="2470588">Hammam-Lif</option>
+        <option value="2470656">La Goulette</option>
+        <option value="2470800">Haffouz</option>
+        <option value="2470996">Rhar el Melah</option>
+        <option value="2471287">Douz</option>
+        <option value="2471454">Degache</option>
+        <option value="2471475">Douar Tindja</option>
+        <option value="2471634">Dar Sidi M’hamed ech Cherif</option>
+        <option value="2471637">Dar Chabanne</option>
+        <option value="2471915">Bou Arkoub</option>
+        <option value="2472261">Bou Arada</option>
+        <option value="2472379">Bir Ali Ben Khalifa</option>
+        <option value="2472380">Bir el Hafey</option>
+        <option value="2472431">Ben Gardane</option>
+        <option value="2472479">Ben Arous</option>
+        <option value="2472675">Le Bardo</option>
+        <option value="2472699">Gouvernorat de Bizerte</option>
+        <option value="2472706">Bizerte</option>
+        <option value="2472722">Beni Khiar</option>
+        <option value="2472724">Beni Khalled</option>
+        <option value="2472726">Beni Kheddache</option>
+        <option value="2472732">Beni Hassane</option>
+        <option value="2472744">Banbalah</option>
+        <option value="2472770">Gouvernorat de Béja</option>
+        <option value="2472774">Béja</option>
+        <option value="2472818">Bab El Jazira</option>
+        <option value="2472833">Zouila</option>
+        <option value="2473161">Skhira</option>
+        <option value="2473163">Sbikha</option>
+        <option value="2473169">Seïada</option>
+        <option value="2473177">As Sars</option>
+        <option value="2473183">As Sanad</option>
+        <option value="2473190">Sahline</option>
+        <option value="2473229">Chebba</option>
+        <option value="2473245">Gouvernorat de l’Ariana</option>
+        <option value="2473247">Ariana</option>
+        <option value="2473257">Ar Rudayyif</option>
+        <option value="2473258">Er Regueb</option>
+        <option value="2473264">Rohia</option>
+        <option value="2473358">Enfidha</option>
+        <option value="2473420">Ouardenine</option>
+        <option value="2473427">El Aouina</option>
+        <option value="2473439">El Ksour</option>
+        <option value="2473448">El Guithna</option>
+        <option value="2473449">Kairouan</option>
+        <option value="2473451">Gouvernorat de Kairouan</option>
+        <option value="2473457">Kasserine</option>
+        <option value="2473460">Gouvernorat de Kasserine</option>
+        <option value="2473466">El Ksar</option>
+        <option value="2473470">Gremda</option>
+        <option value="2473486">El Golaa</option>
+        <option value="2473493">Monastir</option>
+        <option value="2473495">Gouvernorat de Monastir</option>
+        <option value="2473499">La Mohammedia</option>
+        <option value="2473514">El Mida</option>
+        <option value="2473517">Metlaoui</option>
+        <option value="2473525">Mezzouna</option>
+        <option value="2473533">Al Matlīn</option>
+        <option value="2473537">Mesdour</option>
+        <option value="2473540">Al Marsá</option>
+        <option value="2473558">El Maamoura</option>
+        <option value="2473569">El Mây</option>
+        <option value="2473572">Mahdia</option>
+        <option value="2473574">Gouvernorat de Mahdia</option>
+        <option value="2473626">Le Kram</option>
+        <option value="2473628">Le Krib</option>
+        <option value="2473634">El Kef</option>
+        <option value="2473637">Gouvernorat de Kef</option>
+        <option value="2473654">El Jem</option>
+        <option value="2473716">El Haouaria</option>
+        <option value="2473744">Hammamet</option>
+        <option value="2473747">El Hamma</option>
+        <option value="2473788">Fernana</option>
+        <option value="2473803">El Borma</option>
+        <option value="2473823">El Battan</option>
+        <option value="2473826">Bekalta</option>
+        <option value="2473876">El Alia</option>
+        <option value="2473913">Akouda</option>
+</select>
+      <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+          </path>
+        </svg></button>
+    </div>
+
+
+
+    
+    <div class="container">
+        <div class="current-info">
+
+            <div class="date-container">
+                <div class="time" id="time">
+                    23:30 
+                </div>
+                <div class="date" id="date">
+                    Vendredi, 04 mar
+                </div>
+
+                <div class="others" id="current-weather-items">
+                    
+                    
+                </div>
+            </div>
+
+            <div class="place-container">
+                <div class="time-zone" id="time-zone">tunis</div>
+                <div id="country" class="country">IN</div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="future-forecast">
+        <div class="today" id="current-temp">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="other">
+                <div class="day">Lundi</div>
+                <div class="temp">Nuit - 25.6&#176; C</div>
+                <div class="temp">Jour - 35.6&#176; C</div>
+            </div>
+        </div>
+
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">
+                <div class="day">Mar</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Nuit - 25.6&#176; C</div>
+                <div class="temp">Jour - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Mer</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Nuit - 25.6&#176; C</div>
+                <div class="temp">Jour - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Jeu</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Nuit - 25.6&#176; C</div>
+                <div class="temp">Jour - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Ven</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Nuit - 25.6&#176; C</div>
+                <div class="temp">Jour - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Sam</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div class="temp">Nuit - 25.6&#176; C</div>
+                <div class="temp">Jour - 35.6&#176; C</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
